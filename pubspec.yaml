@@ -1,0 +1,26 @@
+name: setting_assistant_vscode
+description: A smart settings helper app
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  android_intent_plus: ^5.3.1
+  permission_handler: ^11.3.0
+  shared_preferences: ^2.3.2
+  speech_to_text: ^7.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+
